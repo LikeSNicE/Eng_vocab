@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+// App.js
+import React from "react";
 import './App.css';
+import "bulma/css/bulma.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import {Route,Routes} from 'react-router-dom';
+import HomePage from "./blocks/homePage/homePage";
+import WordPage from "./blocks/wordPage/wordPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/words/:id" element={<WordPage />} />
+    </Routes>
   );
-}
+};
 
 export default App;

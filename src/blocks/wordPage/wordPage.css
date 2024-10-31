@@ -1,0 +1,55 @@
+.table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.table-word td {
+  width: 50%;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+
+.table-header__name:nth-child(2) {
+  background-color: #53abee;
+}
+
+.message-translate{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 0 20px;
+
+}
+
+.message-definition{
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.tranlate-word-item {
+  margin: 10px 0;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #eef8ff;
+  border: 1px solid #9bbbcd;
+  color: #32485f;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s ease border-color;
+  box-sizing: border-box;
+}
+
+.button-link{
+  font-size: 20px;
+}
+
+.button-link a{
+  color: #000;
+}

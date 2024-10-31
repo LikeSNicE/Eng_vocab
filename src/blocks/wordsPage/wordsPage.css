@@ -1,0 +1,9 @@
+.word-search{
+  margin: 25px 0;
+}
+
+.words__items{
+  padding: 10px;
+  background-color: #2e333d;
+  margin-bottom: 20px;
+}

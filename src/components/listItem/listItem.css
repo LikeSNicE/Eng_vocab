@@ -1,0 +1,28 @@
+.card__main{
+  /* width: 100%; */
+  margin: 20px 0;
+}
+
+.card__main:first-child{
+  margin: 10px 0 20px;
+}
+
+.card__main:last-child{
+  margin: 10px 0 20px;
+}
+
+.card-content{
+  width: 100%;
+}
+
+.content-translate{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-lang{
+  font-size: 24px;
+  font-weight: bold;
+}
+
